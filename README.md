@@ -58,10 +58,10 @@ Content goes here...
 
 More content, including code:
 
-```python
+\`\`\`python
 def hello():
     print("Hello, world!")
-```
+\`\`\`
 
 # Section Two
 
