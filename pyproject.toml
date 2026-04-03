@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmymd"
+version = "0.1.0"
+description = "Print MY MarkDown - converts Markdown to a PDF in a preferred format"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "reportlab",
+    "pygments",
+]
+
+[project.scripts]
+pmymd = "pmymd.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pmymd*"]
